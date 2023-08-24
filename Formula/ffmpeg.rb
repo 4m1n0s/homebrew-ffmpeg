@@ -58,6 +58,7 @@ class Ffmpeg < Formula
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "frei0r"
+  depends_on "libfribidi"
   depends_on "lame"
   depends_on "libass"
   depends_on "libvorbis"
@@ -146,6 +147,7 @@ class Ffmpeg < Formula
       --enable-libfontconfig
       --enable-libfreetype
       --enable-frei0r
+      --enable-libfribidi
       --enable-libass
       --enable-demuxer=dash
     ]
