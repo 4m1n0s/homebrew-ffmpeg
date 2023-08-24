@@ -58,7 +58,7 @@ class Ffmpeg < Formula
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "frei0r"
-  depends_on "libfribidi"
+  depends_on "fribidi"
   depends_on "lame"
   depends_on "libass"
   depends_on "libvorbis"
